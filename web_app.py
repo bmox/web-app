@@ -12,7 +12,7 @@ def classify(num):
         return 'you can not get the credit card'
 
 def main():
-    st.title("Streamlit Tutorial")
+    st.title("Predict User Can Credit Card Or Not")
     html_temp = """
     <div style="background-color:teal ;padding:10px">
     <h2 style="color:white;text-align:center;">Credit Card approval Classification</h2>
