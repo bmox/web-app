@@ -21,7 +21,7 @@ credit.rename(columns={"expenditure":"expe","dependents":"depen","majorcards":"m
 cleanup_nums = {"card":{"yes": 1, "no": 0}}
 credit.replace(cleanup_nums, inplace=True)
 
-x_o=credit[['reports', 'active', 'major', 'income', 'expe']]
+x_o=credit[['expe', 'share', 'reports', 'age', 'income']]
 y_o=credit["card"]
 
 scaling = MinMaxScaler(feature_range=(0, 1))
