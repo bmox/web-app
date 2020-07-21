@@ -25,7 +25,7 @@ def main():
 
     re=st.slider('reports', 0.0, 6.0)
     ac=st.slider('active', 0.0, 35.0)
-    ma=st.slider('major', 0.0, 1.0)
+    ma=st.slider('major cards', 0.0, 1.0)
     inc=st.slider('income', 0.0, 12.0)
     exp=st.slider('expenditure', 0.0, 1000.0)
     inputs=[[re,ac,ma,inc,exp]]
