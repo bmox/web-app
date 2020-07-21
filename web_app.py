@@ -15,7 +15,7 @@ def main():
     st.title("Streamlit Tutorial")
     html_temp = """
     <div style="background-color:teal ;padding:10px">
-    <h2 style="color:white;text-align:center;">Iris Classification</h2>
+    <h2 style="color:white;text-align:center;">Credit Card approval Classification</h2>
     </div>
     """
     st.markdown(html_temp, unsafe_allow_html=True)
