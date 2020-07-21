@@ -30,7 +30,7 @@ def main():
     exp=st.slider('expenditure', 0.0, 1000.0)
     inputs=[[re,ac,ma,inc,exp]]
     if st.button('Classify'):
-        if option=='Linear Regression':
+        if option=='Decision tree':
             st.success(classify(dt_model.predict(inputs)))
         # elif option=='Logistic Regression':
         #     st.success(classify(log_model.predict(inputs)))
